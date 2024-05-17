@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\HardwareProject\myCPU\simulation\qsim
+vCPU
+Z1 IN7LNMedKVI:bHMdTa@dz;3
+Z2 VJk?me2UeBg_Z9Af?j;XFE3
+Z3 dE:\HardwareProject\myCPU\simulation\qsim
+Z4 w1699599759
+Z5 8CPU.vo
+Z6 FCPU.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|CPU.vo|
+Z9 o-work work -O0
+Z10 n@c@p@u
+!i10b 1
+Z11 !s100 do];Ljo?@I;Y?K;O<FdJa2
+!s85 0
+Z12 !s108 1699599764.988000
+Z13 !s107 CPU.vo|
+!s101 -O0
+vCPU_vlg_check_tst
+!i10b 1
+!s100 H2Ul:2_;Daf=GH`ONXADE3
+ICd5HN0[4V9DEQeO@TeS^Y2
+VnJLG<M]IX@lIW2=JN4ab[0
+R3
+Z14 w1699599758
+Z15 8CPUTest.vwf.vt
+Z16 FCPUTest.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z17 !s108 1699599765.273000
+Z18 !s107 CPUTest.vwf.vt|
+Z19 !s90 -work|work|CPUTest.vwf.vt|
+!s101 -O0
+R9
+Z20 n@c@p@u_vlg_check_tst
+vCPU_vlg_sample_tst
+!i10b 1
+Z21 !s100 FmjX^m1aDMmh5KFA3ja;k1
+Z22 IGPEid@]<2VB8C_PklnQZG2
+Z23 VNFzV0@RAJ81>lcz71;6CD3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@c@p@u_vlg_sample_tst
+vCPU_vlg_vec_tst
+!i10b 1
+!s100 H8=?IjaV[OEOXz3b^GBhF1
+ITRP_M5e4Y2Ta;6]@[=bL:1
+Z25 VJGhMb3eOK0GJGjGadCX2W1
+R3
+R14
+R15
+R16
+L0 1566
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 n@c@p@u_vlg_vec_tst

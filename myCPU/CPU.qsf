@@ -1,0 +1,147 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 12:48:01  September 26, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		CPU_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY CPU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:48:01  SEPTEMBER 26, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name BDF_FILE CPU.bdf
+set_global_assignment -name BDF_FILE Reg_32.bdf
+set_global_assignment -name BDF_FILE Reg_8.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE CPUTest.vwf
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "E:/HardwareProject/myCPU/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE Reg_Group_32.bdf
+set_global_assignment -name BDF_FILE Decoder_32.bdf
+set_global_assignment -name VHDL_FILE Decoder_5to32.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE mux41_a.sv
+set_global_assignment -name VERILOG_FILE Decoder32.v
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name MIF_FILE Rom.mif
+set_global_assignment -name QIP_FILE Rom.qip
+set_global_assignment -name QIP_FILE Ram.qip
+set_global_assignment -name QIP_FILE lpm_add_sub0.qip
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name BDF_FILE MUX.bdf
+set_global_assignment -name BDF_FILE ROM.bdf
+set_global_assignment -name BDF_FILE ROM_INS.bdf
+set_global_assignment -name BDF_FILE RAM_Data.bdf
+set_global_assignment -name BDF_FILE MUX_32.bdf
+set_global_assignment -name QIP_FILE lpm_mux2.qip
+set_global_assignment -name BDF_FILE MUX_5.bdf
+set_global_assignment -name BDF_FILE 16extend32_signed.bdf
+set_global_assignment -name BDF_FILE 26extend32_signed.bdf
+set_global_assignment -name QIP_FILE lpm_add_sub1.qip
+set_global_assignment -name QIP_FILE lpm_mux3.qip
+set_global_assignment -name BDF_FILE PC.bdf
+set_global_assignment -name BDF_FILE Controller.bdf
+set_global_assignment -name BDF_FILE PCSource.bdf
+set_global_assignment -name BDF_FILE RegDst.bdf
+set_global_assignment -name BDF_FILE ALUSrcB.bdf
+set_global_assignment -name BDF_FILE ALUOp.bdf
+set_global_assignment -name BDF_FILE MemToReg.bdf
+set_global_assignment -name BDF_FILE Memwrite.bdf
+set_global_assignment -name BDF_FILE Clear.bdf
+set_global_assignment -name BDF_FILE RegWrite.bdf
+set_global_assignment -name MIF_FILE ROMTEST.mif
+set_global_assignment -name BDF_FILE 26extend32.bdf
+set_global_assignment -name QIP_FILE lpm_mux4.qip
+set_global_assignment -name BDF_FILE MUX_3.bdf
+set_global_assignment -name BDF_FILE 16extend32.bdf
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VERILOG_FILE LEDHex.v
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_F13 -to LED01[6]
+set_location_assignment PIN_F12 -to LED01[5]
+set_location_assignment PIN_G12 -to LED01[4]
+set_location_assignment PIN_H13 -to LED01[3]
+set_location_assignment PIN_H12 -to LED01[2]
+set_location_assignment PIN_F11 -to LED01[1]
+set_location_assignment PIN_E11 -to LED01[0]
+set_location_assignment PIN_A15 -to LED02[6]
+set_location_assignment PIN_E14 -to LED02[5]
+set_location_assignment PIN_B14 -to LED02[4]
+set_location_assignment PIN_A14 -to LED02[3]
+set_location_assignment PIN_C13 -to LED02[2]
+set_location_assignment PIN_B13 -to LED02[1]
+set_location_assignment PIN_A13 -to LED02[0]
+set_location_assignment PIN_F14 -to LED03[6]
+set_location_assignment PIN_B17 -to LED03[5]
+set_location_assignment PIN_A17 -to LED03[4]
+set_location_assignment PIN_E15 -to LED03[3]
+set_location_assignment PIN_B16 -to LED03[2]
+set_location_assignment PIN_A16 -to LED03[1]
+set_location_assignment PIN_D15 -to LED03[0]
+set_location_assignment PIN_G15 -to LED04[6]
+set_location_assignment PIN_D19 -to LED04[5]
+set_location_assignment PIN_C19 -to LED04[4]
+set_location_assignment PIN_B19 -to LED04[3]
+set_location_assignment PIN_A19 -to LED04[2]
+set_location_assignment PIN_F15 -to LED04[1]
+set_location_assignment PIN_B18 -to LED04[0]
+set_location_assignment PIN_H2 -to clk
+set_location_assignment PIN_B1 -to ALUop
+set_global_assignment -name CDF_FILE output_files/output_files/Chain1.cdf
+set_location_assignment PIN_B2 -to ALUSrcB
+set_location_assignment PIN_C2 -to Clear
+set_location_assignment PIN_C1 -to MemToReg
+set_location_assignment PIN_E1 -to MemWrite
+set_location_assignment PIN_F2 -to PCSource
+set_location_assignment PIN_H1 -to RegDst
+set_location_assignment PIN_J3 -to RegWrite
+set_global_assignment -name CDF_FILE output_files/output_files/Chain2.cdf
+set_location_assignment PIN_J1 -to overflow
+set_global_assignment -name MIF_FILE output_files/Test1.mif
+set_global_assignment -name MIF_FILE output_files/Test3.mif
+set_global_assignment -name MIF_FILE TestCode/Test2.mif
+set_global_assignment -name MIF_FILE Test4.mif
+set_global_assignment -name VERILOG_FILE Comp32.v
+set_global_assignment -name BDF_FILE Branch.bdf
+set_global_assignment -name MIF_FILE Test5.mif
+set_global_assignment -name MIF_FILE Test6.mif
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

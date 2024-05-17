@@ -1,0 +1,15 @@
+module dec5_32x
+(
+	input [4:0] x,
+	output [31:0] y,  // High level output
+	output [31:0] yn  // Low level output
+);
+
+
+
+assign y = 1 << x;
+assign yn = ~y;
+
+
+
+endmodule 

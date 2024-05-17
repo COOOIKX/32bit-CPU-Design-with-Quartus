@@ -1,0 +1,265 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 200 224 368 240)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in[15..0]" (rect 5 0 46 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 840 160 1016 176)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "out[31..0]" (rect 90 0 137 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 576 136 712 456)
+	(text "16extend32_signed" (rect 5 0 117 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "in[0]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[0]" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "in[1]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[1]" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "in[2]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[2]" (rect 21 59 44 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "in[3]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[3]" (rect 21 75 44 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "in[4]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[4]" (rect 21 91 44 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "in[5]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[5]" (rect 21 107 44 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "in[6]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[6]" (rect 21 123 44 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "in[7]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[7]" (rect 21 139 44 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "in[8]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[8]" (rect 21 155 44 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "in[9]" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "in[9]" (rect 21 171 44 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "in[10]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "in[10]" (rect 21 187 51 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "in[11]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "in[11]" (rect 21 203 51 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "in[12]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "in[12]" (rect 21 219 51 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "in[13]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "in[13]" (rect 21 235 51 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "in[14]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "in[14]" (rect 21 251 51 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "in[15]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "in[15]" (rect 21 267 51 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "out[31..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "out[31..0]" (rect 62 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 304))
+	)
+)
+(connector
+	(pt 840 168)
+	(pt 712 168)
+	(bus)
+)
+(connector
+	(text "in[0]" (rect 554 152 575 164)(font "Arial" ))
+	(pt 576 168)
+	(pt 544 168)
+)
+(connector
+	(text "in[1]" (rect 554 168 575 180)(font "Arial" ))
+	(pt 576 184)
+	(pt 544 184)
+)
+(connector
+	(text "in[2]" (rect 554 184 575 196)(font "Arial" ))
+	(pt 576 200)
+	(pt 544 200)
+)
+(connector
+	(text "in[3]" (rect 554 200 575 212)(font "Arial" ))
+	(pt 576 216)
+	(pt 544 216)
+)
+(connector
+	(text "in[4]" (rect 554 216 575 228)(font "Arial" ))
+	(pt 576 232)
+	(pt 544 232)
+)
+(connector
+	(text "in[5]" (rect 554 232 575 244)(font "Arial" ))
+	(pt 576 248)
+	(pt 544 248)
+)
+(connector
+	(text "in[6]" (rect 554 248 575 260)(font "Arial" ))
+	(pt 576 264)
+	(pt 544 264)
+)
+(connector
+	(text "in[7]" (rect 554 264 575 276)(font "Arial" ))
+	(pt 576 280)
+	(pt 544 280)
+)
+(connector
+	(text "in[8]" (rect 554 280 575 292)(font "Arial" ))
+	(pt 576 296)
+	(pt 544 296)
+)
+(connector
+	(text "in[9]" (rect 554 296 575 308)(font "Arial" ))
+	(pt 576 312)
+	(pt 544 312)
+)
+(connector
+	(text "in[10]" (rect 554 312 581 324)(font "Arial" ))
+	(pt 576 328)
+	(pt 544 328)
+)
+(connector
+	(text "in[11]" (rect 554 328 581 340)(font "Arial" ))
+	(pt 576 344)
+	(pt 544 344)
+)
+(connector
+	(text "in[12]" (rect 554 344 581 356)(font "Arial" ))
+	(pt 576 360)
+	(pt 544 360)
+)
+(connector
+	(text "in[13]" (rect 554 360 581 372)(font "Arial" ))
+	(pt 576 376)
+	(pt 544 376)
+)
+(connector
+	(text "in[14]" (rect 554 376 581 388)(font "Arial" ))
+	(pt 576 392)
+	(pt 544 392)
+)
+(connector
+	(text "in[15]" (rect 554 392 581 404)(font "Arial" ))
+	(pt 576 408)
+	(pt 544 408)
+)

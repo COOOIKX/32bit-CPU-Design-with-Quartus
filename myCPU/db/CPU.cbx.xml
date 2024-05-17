@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CPU">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|MUX_3:inst19|lpm_mux4:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_lrc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|MUX_5:inst20|lpm_mux2:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_2qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|PC:inst9|lpm_add_sub1:inst1|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_msh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|PC:inst9|lpm_mux3:inst3|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_krc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|Reg_Group_32:inst13|lpm_mux0:inst66|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9tc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst21|lpm_add_sub0:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_ich.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|MUX_32:inst22|lpm_mux1:inst|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_irc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|RAM_Data:inst17|Ram:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mef1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ROM_INS:inst15|Rom:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q391.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|Reg_Group_32:inst13|lpm_mux0:inst67|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9tc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
